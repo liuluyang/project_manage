@@ -1,3 +1,4 @@
+#coding:utf8
 """
 Django settings for cgworldline project.
 
@@ -37,18 +38,9 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-
     'dw',
-    #'django_gravatar',
-    #'xmpp',
-    #'padlist',
 )
 
-
-XMPP_DOMAIN = '59.110.45.134'
-XMPP_BOSH_SERVICE_URL = 'http://59.110.45.134:5280/http-bind/'
-
-ALLOWED_HOSTS = ['59.110.45.134','127.0.0.1']
 
 MIDDLEWARE_CLASSES = (
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -125,34 +117,10 @@ STATICFILES_DIRS = (
 MEDIA_ROOT = os.path.join(BASE_DIR,'static')
 MEDIA_URL = '/media/'
 
+ALLOWED_HOSTS = ['127.0.0.1']  #这个参数不能少 不然邮件发不出去
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 DEFAULT_FROM_EMAIL = '17600667670@163.com'
-#SITE_HOST = '192.168.1.8:8000'
 EMAIL_HOST = 'smtp.163.com'
-#EMAIL_PORT = '25'
 EMAIL_HOST_USER = '17600667670@163.com'
-EMAIL_HOST_PASSWORD = 'liuluyang123456'
+EMAIL_HOST_PASSWORD = 'hello123'
 EMAIL_USE_TLS = True
-
-XMPP_CONVERSEJS_SETTINGS = {
-    'allow_contact_removal': False,
-    'allow_contact_requests': True,
-    'auto_subscribe': True,
-    'allow_logout': False,
-    'allow_muc': True,
-    'allow_otr': False,
-    'allow_registration': False,
-    'message_carbons': True,
-    'hide_muc_server': True,
-    'use_vcards': True,
-    'animate': True,
-    'play_sounds': True,
-    'xhr_user_search': True,
-    'sounds_path': '%ssounds/' % STATIC_URL,
-    'visible_toolbar_buttons': {
-         'call': False,
-         'clear': False,
-         'emoticons': True,
-         'toggle_participants': False,
-    }
-}

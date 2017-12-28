@@ -15,7 +15,6 @@ Including another URLconf
 from django.conf.urls import include, url
 from django.contrib import admin
 from dw.cdkey import *
-#import xmpp
 
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
@@ -23,9 +22,6 @@ urlpatterns = [
     url(r'^cdkey_past_dut/$',cdkey_past_dut),
     url(r'^cdkey/$',cdkey),
     url(r'^usecdkey/$',usecdkey),
-    #url(r'xmpp/', include('xmpp.urls')),
-    #url(r'padlist/', include('padlist.urls')),
-
 
 
 ]
