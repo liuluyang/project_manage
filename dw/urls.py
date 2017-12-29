@@ -3,7 +3,7 @@ from django.conf.urls import include, url
 from views import *
 from darkwarrior.settings import MEDIA_ROOT
 
-from tests import *
+from tests import test
 from permission_update import *
 from ajax_views import *
 from member_team import *

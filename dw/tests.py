@@ -6,7 +6,7 @@ import uuid
 import base64
 from django.shortcuts import render_to_response
 from common_function import mac_computer_name_get
-
+import os
 
 # Create your tests here.
 
@@ -22,3 +22,7 @@ def test(request):
 
 
     return render_to_response('test.html',locals())
+
+
+
+#print os.path.join(os.path.dirname(os.getcwd())+'/static/attachment/wpaint/'.replace('/','\\'))+'ad.png'

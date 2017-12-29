@@ -107,7 +107,7 @@ def update_image(request,*args,**kwargs): #图片编辑axaj
         image_name = uuid.uuid1()
 
         imgData = base64.b64decode(image_base64)
-        image = open('/var/www/darkwarrior/static/attachment/wpaint/%s.png'%image_name,'wb')
+        image = open('E:/xunlei/local-repositories/project_manage/static/attachment/wpaint/%s.png'%image_name,'wb')
         image.write(imgData)
         image.close()
 
@@ -244,7 +244,6 @@ def password_reset_confirm(request,uidb64,token):
     token =token
     user_id = urlsafe_base64_decode(uidb64)
     user = User.objects.get(id=user_id)
-    print token
 
     if Login_title.objects.filter(owner_project=0).exists():
         login_title = Login_title.objects.filter(owner_project=0)[0].title
@@ -255,7 +254,6 @@ def password_reset_confirm(request,uidb64,token):
         login_right_title = '玄武 '
     errors = []
     if default_token_generator.check_token(user,token):
-        print 'user is eixts'
         if request.method == 'POST':
             new_password1 = request.POST.get('new_password1','')
             new_password2 = request.POST.get('new_password2','')
@@ -265,7 +263,6 @@ def password_reset_confirm(request,uidb64,token):
             else:
                 new_password = make_password(new_password1,None,'pbkdf2_sha256')
                 User.objects.filter(username=user.username).update(password=new_password)
-                print new_password
                 xmpp_server = '59.110.45.134'
 
                 try:
@@ -2441,3 +2438,6 @@ def updateTaskForProject(request,*args,**kwargs):
             Message.objects.filter(owner_task=task).update(owner_project=project)
     return HttpResponseRedirect('/%s/kanban/' % url, locals())
 
+
+#模块导入太乱 尽量不要用*导入
+#代码书写不规范
