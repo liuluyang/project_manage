@@ -1,5 +1,3 @@
-from django.contrib import admin
-
 #coding:utf8
 from django.contrib import admin
 from models import *
@@ -22,8 +20,6 @@ class VersionsAdmin(admin.ModelAdmin):
 class ComponentAdmin(admin.ModelAdmin):
     list_display = ('id','name','description','owner_project','default')
 
-#class TaskorderAdmin(admin.ModelAdmin):
-    #list_display = ('id','time','owner','creator','task_image','reporter','priority','summary','milestone','description','owner_project','read_status')
 
 class TaskorderAdmin(admin.ModelAdmin):
     list_display = ('id','display_id','type','time','owner','creator','reporter','priority','summary','parent','roll','scene','take',
@@ -57,7 +53,6 @@ class GroupAdmin(admin.ModelAdmin):
 class Base_permissionAdmin(admin.ModelAdmin):
     list_display = ('id','view_name','description')
 class Project_typeAdmin(admin.ModelAdmin):
-    #list_display = ('id','priority','type','component','milestone','version','status')
     list_display = ('id','name','owner','creator')
 
 class Project_indexAdmin(admin.ModelAdmin):

@@ -1,9 +1,7 @@
 # coding:utf8
 from django.db import models
 from datetime import datetime
-import os
 from django.utils.timezone import now
-
 
 class Base_permission(models.Model):
     view_name = models.CharField(max_length=50, blank=True, verbose_name='views名称')
