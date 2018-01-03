@@ -13,7 +13,7 @@ from django.contrib.auth.tokens import default_token_generator
 from decorator import *
 import subprocess
 from django.core.paginator import Paginator
-from HR_views import user_permissions
+from permissions import user_permissions
 
 
 @checkCdkey

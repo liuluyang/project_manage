@@ -2,28 +2,21 @@
 from django.conf.urls import include, url
 from views import *
 from darkwarrior.settings import MEDIA_ROOT
-
 from tests import test
 from permission_update import *
 from ajax_views import *
 from member_team import *
-from svn_views import *
 from task_content_views import *
 from calendar_views import *
-from time_coord import *
-from effects_views import *
-from chat_views import *
 from index import global_calendar,global_gantt,global_report
 
 urlpatterns = [
-    url(r'^', include('dw.wiki_urls')),
-    url(r'^global_manage/',include('dw.global_manage_urls'),{'views_permission':'manage'}),
-    url(r'^(?P<project_id>\d+)/manage/', include('dw.manage_url'), {'views_permission': 'manage'}), #项目管理
+    url(r'^', include('dw.wiki_urls')), #维基
+    url(r'^global_manage/',include('dw.global_manage_urls'),{'views_permission':'manage'}), #全局管理后台
+    url(r'^(?P<project_id>\d+)/manage/', include('dw.manage_url'), {'views_permission': 'manage'}), #项目管理后台
 
-    url(r'^(?P<project_id>\d+)/effects/', include('dw.effects_urls'), {'views_permission': 'effects'}),
-
-
-    url(r'^(?P<project_id>\d+)/HR/', include('dw.HR_urls'), {'views_permission': 'HR'}),
+    #url(r'^(?P<project_id>\d+)/effects/', include('dw.effects_urls'), {'views_permission': 'effects'}),
+    #url(r'^(?P<project_id>\d+)/HR/', include('dw.HR_urls'), {'views_permission': 'HR'}),
 
     url(r'^test/$',test),
     url(r'^login/$',login),
@@ -49,44 +42,17 @@ urlpatterns = [
     url(r'^personal_log/$',personal_log,{'views_permission':'project_index'}),
     url(r'^loading_personal_timeline/(?P<loading_index>\d+)/(?P<loading_num>\d+)/(?P<user_id>\d+)/$',loading_personal_timeline,{'views_permission':'project_index'}),
 
-
     url(r'^(?P<project_id>\d+)/$',kanban,{'views_permission':'project_index'}),
     url(r'^(?P<project_id>\d+)/many_change/$',many_change,{'views_permission':'many_change'}),
     url(r'^(?P<project_id>\d+)/kanban/$',kanban,{'views_permission':'kanban'}),
     url(r'^(?P<project_id>\d+)/query/$',query,{'views_permission':'query'}),
-
-    url(r'^(?P<project_id>\d+)/shot_query/$',shot_query,{'views_permission':'query'}), #lizhiwen 2016/9/22
-
     url(r'^(?P<project_id>\d+)/newtask/$',newtask,{'views_permission':'newtask'}),
     url(r'^(?P<project_id>\d+)/newtask/(?P<parent_task>\d+)/$',new_child_task,{'views_permission':'newtask'}),
     url(r'^(?P<project_id>\d+)/newshot/$',newshot,{'views_permission':'newtask'}),
     url(r'^(?P<project_id>\d+)/newassets/$',newassets,{'views_permission':'newtask'}),
-
     url(r'^(?P<project_id>\d+)/roadmap/$',roadmap,{'views_permission':'roadmap'}),
-
     url(r'^(?P<project_id>\d+)/task/(?P<id>\d+)/$',task_contents,{'views_permission':'task_content'}),
-
-    #url(r'^(?P<project_id>\d+)/task/(?P<id>\d+)/time_coord_task_contents/$',time_coord_task_contents,{'views_permission':'task_content'}), #lizhiwen 2016/9/24
-
-    url(r'^(?P<project_id>\d+)/task/(?P<id>\d+)/create_repository/$',create_repository,{'views_permission':'task_content'}),#任务单关联版本库
-    url(r'^(?P<project_id>\d+)/task/(?P<id>\d+)/svn/$',view_svn,{'views_permission':'task_content'}),
-    url(r'^(?P<project_id>\d+)/task/(?P<id>\d+)/svn/(?P<name>\w+)/(?P<path>.*|\w+.*)',svn,{'views_permission':'task_content'}),
-    url(r'^(?P<project_id>\d+)/task/(?P<id>\d+)/svn_log/(?P<name>\w+)/$',svn_log,{'views_permission':'task_content'}),
-    url(r'^(?P<project_id>\d+)/task/(?P<id>\d+)/svn_recent_changes/(?P<name>\w+)/$',svn_recent_changes,{'views_permission':'task_content'}),
-    url(r'^(?P<project_id>\d+)/task/(?P<id>\d+)/delete_repository/(?P<name>\w+)/$',delete_repository,{'views_permission':'task_content'}),
-    url(r'^(?P<project_id>\d+)/task/(?P<id>\d+)/register_svn/(?P<name>\w+)/$',register_svn,{'views_permission':'task_content'}),
-
     url(r'^(?P<project_id>\d+)/task/(?P<id>\d+)/attachment_upload/$',task_attachment_upload,{'views_permission':'task_content'}),
-
-    url(r'^(?P<project_id>\d+)/svn/$',view_svn,{'views_permission':'svn'}),
-    url(r'^(?P<project_id>\d+)/svn/(?P<name>\w+)/(?P<path>.*|\w+.*)',svn,{'views_permission':'svn'}),
-    url(r'^(?P<project_id>\d+)/svn_log/(?P<name>\w+)/$',svn_log,{'views_permission':'svn'}),
-    url(r'^(?P<project_id>\d+)/svn_recent_changes/(?P<name>\w+)/$',svn_recent_changes,{'views_permission':'svn'}),
-    url(r'^(?P<project_id>\d+)/delete_repository/(?P<name>\w+)/$',delete_repository,{'views_permission':'svn'}),
-    url(r'^(?P<project_id>\d+)/create_repository/$',create_repository,{'views_permission':'svn'}),
-    url(r'^(?P<project_id>\d+)/register_svn/(?P<name>\w+)/$',register_svn,{'views_permission':'svn'}),
-    url(r'^(?P<project_id>\d+)/owner_svn/$',view_svn,{'views_permission':'svn'}),
-
     url(r'^update_permission_list/$',update_permission_list),                                         #更新权限列表
     url(r'^(?P<project_id>\d+)/message_2/$',message_2),                                               #消息列表
     url(r'^(?P<project_id>\d+)/judgment_message/$',judgment_message),                                 #消息通知
@@ -109,14 +75,8 @@ urlpatterns = [
     url(r'^(?P<project_id>\d+)/loading_kanban/(?P<present_tasks>.+)/$',kanban,{'views_permission':'kanban'}),                  #看板loading 2016/08/23 刘禄扬
 
     url(r'(?P<project_id>\d+)/view_calendar/$',view_calendar,{'views_permission':'calendar'}),#日历
-    #url(r'(?P<project_id>\d+)/create_calendar/$',create_calendar,{'views_permission':'calendar'}),
-   # url(r'(?P<project_id>\d+)/modify_calendar/$',modify_calendar,{'views_permission':'calendar'}),
-   # url(r'(?P<project_id>\d+)/delete_calendar/$',delete_calendar,{'views_permission':'calendar'}),
 
     url(r'^(?P<project_id>\d+)/gantt/$',gantt,{'views_permission':'gantt'}),
-
-    #url(r'^(?P<project_id>\d+)/time_coord/$',time_coord), #test################################################# 时光坐标插入xlcel数据
-
 
     url(r'^links/$',link,name='link'),
     url(r'^change_attachment_name/$',change_attachment_name,name='change_attachment_name'),                         #添加附件备注 刘禄扬 2016/08/31
@@ -136,5 +96,4 @@ urlpatterns = [
     url(r'^(?P<project_id>\d+)/project_members_report/(?P<member_id>\d+)/$',project_members_report,{'views_permission':'project_index'}), #项目成员报表
     url(r'^(?P<project_id>\d+)/kanban/UpdateTaskForProject/$', updateTaskForProject,{'views_permission': 'project_index'}),  # 任务单跨项目
 
-   # url(r'^(?P<project_id>\d+)/chat_register/$', chat_register),#聊天用户注册
 ]

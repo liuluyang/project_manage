@@ -15,8 +15,37 @@ from django.core.paginator import Paginator,PageNotAnInteger,EmptyPage
 from itertools import chain
 import pytz
 import xlrd
-from HR_views import project_staff
 
+
+def project_staff(url):  #获取当前项目所有成员
+    '''
+    :param url: 项目id
+    :return: 当前项目所有成员
+    '''
+    project_permissions = Permission.objects.filter(project_id=url)  # 获取当前项目权限
+    project_staff_list = []
+    for project_permission in project_permissions:
+        staff_list = project_permission.user_set.all()
+        project_staff_list = list(set(list(staff_list) + project_staff_list))
+
+    for project_permission in project_permissions:
+        for group in project_permission.group_set.all():
+            project_staff_list = list(set(list(group.user_set.all()) + project_staff_list))
+
+    project_groups = Group.objects.filter(owner_project_id=url)
+    for group in project_groups:
+        project_staff_list = list(set(list(group.user_set.all()) + project_staff_list))
+    project_staff_list.append(Project.objects.get(id=url).creator)
+    project_staff_list = list(set(project_staff_list))
+
+
+    for company_department in CompanyDepartment.objects.filter(owner_project=url):
+        project_staff_list = list(project_staff_list + list(company_department.personnel.all()))
+
+
+    project_staff_list = list(set(project_staff_list))
+
+    return project_staff_list
 
 
 @checkCdkey

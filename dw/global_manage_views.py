@@ -14,11 +14,6 @@ import subprocess
 from django.core.paginator import Paginator,PageNotAnInteger,EmptyPage
 from itertools import chain
 import pytz
-import xlrd
-from HR_views import project_staff
-import json
-from json import dumps
-
 
 
 @checkCdkey
@@ -900,4 +895,3 @@ def global_project_interface_edit(request,*args,**kwargs): #项目界面修改
 
     return render_to_response('global_manage/project_interface_edit.html', locals())
 
-from createtree import mkdir

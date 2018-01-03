@@ -1,3 +1,4 @@
+#coding:utf8
 """cgworldline URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
@@ -19,9 +20,9 @@ from dw.cdkey import *
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
     url(r'^', include('dw.urls')),
-    url(r'^cdkey_past_dut/$',cdkey_past_dut),
-    url(r'^cdkey/$',cdkey),
-    url(r'^usecdkey/$',usecdkey),
+    url(r'^cdkey_past_dut/$',cdkey_past_dut), #cdkey过期提醒
+    url(r'^cdkey/$',cdkey), #cdkey注册激活
+    url(r'^usecdkey/$',usecdkey), #cdkey禁止提醒
 
 
 ]
