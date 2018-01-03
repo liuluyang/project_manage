@@ -184,18 +184,6 @@
                         {% endif %}
                     </li>
 
-                    {% if not global_manage %}
-                        {% if template.name != 'HR' %}
-                            <li class="has-submenu">
-                                <a href="#"><i class="zmdi zmdi-chart"></i><span>资产</span></a>
-                                <ul class="submenu">
-                                    <li><a href="/{{ url }}/svn/">浏览库</a></li>
-                                    <li><a href="/{{ url }}/create_repository/">创建库</a></li>
-                                    <li><a href="/{{ url }}/owner_svn/">我的资产库</a></li>
-                                </ul>
-                            </li>
-                        {% endif %}
-                    {% endif %}
 
                     {% if not global_manage %}
                         {% if template.name == 'effects' %}
@@ -373,12 +361,6 @@
                                 <i class="fa fa-video-camera" aria-hidden="true"></i>
                             </a>
                         </li>
-                        <li >
-                            <a class="mater btn-floating blue" data-container="body" data-toggle="popover" data-trigger="hover focus  manual click" data-animation="true" data-placement="left" data-content="资产" href="/{{ url }}/newassets/" class="material-icons" >
-                                <!--<b class="material-icons">资产</b>-->
-                                <i class="fa fa-archive" aria-hidden="true"></i>
-                            </a>
-                        </li>
                     {% elif template.name == 'HR' %}
                         <li>
                             <a class="mater btn-floating red" data-container="body" data-toggle="popover" data-trigger="hover focus  manual click" data-animation="true" data-placement="left" data-content="请假单" class="material-icons" href="/{{ url }}/HR/create_leave/">
@@ -406,12 +388,7 @@
                                 <i class="fa fa-tasks" aria-hidden="true"></i>
                             </a>
                         </li>
-                        <li >
-                            <a class="mater btn-floating blue" data-container="body" data-toggle="popover" data-trigger="hover focus  manual click" data-animation="true" data-placement="left" data-content="资产" href="/{{ url }}/newassets/" class="material-icons" >
-                                <!--<b class="material-icons">资产</b>-->
-                                <i class="fa fa-archive" aria-hidden="true"></i>
-                            </a>
-                        </li>
+
                     {% endif %}
                     <li>
                         <a class="mater btn-floating green" data-container="body" data-toggle="popover" data-trigger="hover focus  manual click" data-animation="true" data-placement="left" data-content="维基" class="material-icons" href="/{{ url }}/create_wiki/">

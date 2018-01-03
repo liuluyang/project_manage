@@ -2,24 +2,67 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98ca1bbb-5c19-4bd8-845b-54223183aa72" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dw/HR_urls.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dw/HR_views.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dw/chat_views.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dw/effects_urls.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dw/effects_views.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dw/letschat.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dw/svn_views.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dw/time_coord.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/darkwarrior/templates/registration/password_reset_complete.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/darkwarrior/templates/registration/password_reset_confirm.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/darkwarrior/templates/registration/password_reset_done.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/darkwarrior/templates/registration/password_reset_email.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/darkwarrior/templates/registration/password_reset_form.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dw/templates/HRmanage/HR_CompanyPersonnel.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dw/templates/HRmanage/HR_attendance.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dw/templates/HRmanage/HR_attendance_statistic.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dw/templates/HRmanage/HR_calendar.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dw/templates/HRmanage/HR_gantt.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dw/templates/HRmanage/HR_kanban.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dw/templates/HRmanage/HR_load_kanban.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dw/templates/HRmanage/HR_task_content.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dw/templates/HRmanage/create_Leave_application.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dw/templates/HRmanage/create_leave.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dw/templates/HRmanage/create_requisition.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dw/templates/chat.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dw/templates/chat_register.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dw/templates/create_assets.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dw/templates/create_repository.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dw/templates/create_shot.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dw/templates/effectstemplates/create_shot.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dw/templates/effectstemplates/effects_calendar.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dw/templates/effectstemplates/effects_gantt.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dw/templates/effectstemplates/effects_kanban.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dw/templates/effectstemplates/effects_load_kanban.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dw/templates/effectstemplates/effects_task_content.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dw/templates/effectstemplates/gallery.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dw/templates/effectstemplates/loading_gallery.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dw/templates/effectstemplates/shot_query.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dw/templates/extras-timeline.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dw/templates/list_task.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dw/templates/manage.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dw/templates/owner_svn.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dw/templates/page-starter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dw/templates/register_svn.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dw/templates/svn.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dw/templates/svn_log.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dw/templates/svn_recent_changes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dw/templates/time_coord_task_content.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dw/templates/view_svn.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dw/static/wPaint" afterPath="$PROJECT_DIR$/dw/static/wPaint" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkwarrior/__init__.py" afterPath="$PROJECT_DIR$/darkwarrior/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkwarrior/settings.py" afterPath="$PROJECT_DIR$/darkwarrior/settings.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/darkwarrior/urls.py" afterPath="$PROJECT_DIR$/darkwarrior/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dw/__init__.py" afterPath="$PROJECT_DIR$/dw/__init__.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dw/ajax_views.py" afterPath="$PROJECT_DIR$/dw/ajax_views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dw/calendar_views.py" afterPath="$PROJECT_DIR$/dw/calendar_views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dw/createtree.py" afterPath="$PROJECT_DIR$/dw/createtree.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dw/global_manage_views.py" afterPath="$PROJECT_DIR$/dw/global_manage_views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dw/index.py" afterPath="$PROJECT_DIR$/dw/index.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dw/manage_views.py" afterPath="$PROJECT_DIR$/dw/manage_views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dw/member_team.py" afterPath="$PROJECT_DIR$/dw/member_team.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dw/task_content_views.py" afterPath="$PROJECT_DIR$/dw/task_content_views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dw/templates/base.html" afterPath="$PROJECT_DIR$/dw/templates/base.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dw/templates/manage/project_change.html" afterPath="$PROJECT_DIR$/dw/templates/manage/project_change.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dw/templates/task_content.html" afterPath="$PROJECT_DIR$/dw/templates/task_content.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dw/templates/timeline.html" afterPath="$PROJECT_DIR$/dw/templates/timeline.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dw/templates/wiki/wiki_content.html" afterPath="$PROJECT_DIR$/dw/templates/wiki/wiki_content.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dw/tests.py" afterPath="$PROJECT_DIR$/dw/tests.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dw/urls.py" afterPath="$PROJECT_DIR$/dw/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dw/views.py" afterPath="$PROJECT_DIR$/dw/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dw/wiki_views.py" afterPath="$PROJECT_DIR$/dw/wiki_views.py" />
     </list>
     <ignored path="project_manage.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,6 +78,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/project_manage$views.coverage" NAME="views Coverage Results" MODIFIED="1514515584021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dw" />
     <SUITE FILE_PATH="coverage/project_manage$tests.coverage" NAME="tests Coverage Results" MODIFIED="1514516994529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dw" />
+    <SUITE FILE_PATH="coverage/project_manage$test_django_token.coverage" NAME="test_django_token Coverage Results" MODIFIED="1514960945094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dw" />
     <SUITE FILE_PATH="coverage/project_manage$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1514537555316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/darkwarrior" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -49,50 +93,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ajax_views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dw/ajax_views.py">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dw/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
-              <folding>
-                <element signature="e#14#102#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dw/admin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.042881645">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding>
-                <element signature="e#13#45#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="global_manage_views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dw/global_manage_views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="719.9">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding>
-                <element signature="e#13#101#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="global_manage_urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dw/global_manage_urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
+              <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -101,51 +107,59 @@
         <entry file="file://$PROJECT_DIR$/dw/download.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="76" column="38" selection-start-line="76" selection-start-column="38" selection-end-line="76" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="decorator.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dw/decorator.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding>
-                <element signature="e#13#101#0" expanded="true" />
+                <element signature="e#148#187#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="createtree.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dw/createtree.py">
+      <file leaf-file-name="wiki_views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dw/wiki_views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
+              <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wiki_content.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dw/templates/wiki/wiki_content.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.882353">
+              <caret line="76" column="55" selection-start-line="76" selection-start-column="55" selection-end-line="76" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dw/templates/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.1359447">
+              <caret line="387" column="78" selection-start-line="387" selection-start-column="78" selection-end-line="387" selection-end-column="78" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wiki.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dw/templates/wiki/wiki.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="18.852942">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="common_function.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dw/common_function.py">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dw/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding>
-                <element signature="e#13#24#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cdkey.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dw/cdkey.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state vertical-scroll-proportion="257.43332">
+              <caret line="1359" column="55" selection-start-line="1359" selection-start-column="44" selection-end-line="1359" selection-end-column="55" />
               <folding>
                 <element signature="e#14#102#0" expanded="true" />
               </folding>
@@ -153,13 +167,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="calendar_views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dw/calendar_views.py">
+      <file leaf-file-name="task_content_views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dw/task_content_views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <state vertical-scroll-proportion="-25.7">
+              <caret line="597" column="79" selection-start-line="597" selection-start-column="79" selection-end-line="597" selection-end-column="79" />
               <folding>
-                <element signature="e#15#103#0" expanded="true" />
+                <element signature="e#14#102#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="task_content.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dw/templates/task_content.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-11.859375">
+              <caret line="727" column="158" selection-start-line="727" selection-start-column="149" selection-end-line="727" selection-end-column="158" />
+              <folding>
+                <element signature="n#style#0;n#input#2;n#form#0;n#div#1;n#div#0;n#div#1;n#div#2;n#div#0;n#div#3;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dw/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="88.96667">
+              <caret line="369" column="30" selection-start-line="369" selection-start-column="30" selection-end-line="369" selection-end-column="30" />
+              <folding>
+                <element signature="e#14#42#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -173,20 +211,32 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/dw/tests.py" />
-        <option value="$PROJECT_DIR$/dw/views.py" />
         <option value="$PROJECT_DIR$/dw/models.py" />
         <option value="$PROJECT_DIR$/dw/admin.py" />
         <option value="$PROJECT_DIR$/dw/__init__.py" />
-        <option value="$PROJECT_DIR$/darkwarrior/urls.py" />
         <option value="$PROJECT_DIR$/darkwarrior/settings.py" />
         <option value="$PROJECT_DIR$/darkwarrior/__init__.py" />
-        <option value="$PROJECT_DIR$/dw/urls.py" />
         <option value="$PROJECT_DIR$/dw/HR_views.py" />
-        <option value="$PROJECT_DIR$/dw/manage_views.py" />
-        <option value="$PROJECT_DIR$/dw/global_manage_views.py" />
         <option value="$PROJECT_DIR$/dw/download.py" />
+        <option value="$PROJECT_DIR$/darkwarrior/urls.py" />
         <option value="$PROJECT_DIR$/dw/ajax_views.py" />
+        <option value="$PROJECT_DIR$/dw/templates/task_content.html" />
+        <option value="$PROJECT_DIR$/dw/templates/extras-timeline.html" />
+        <option value="$PROJECT_DIR$/dw/templates/timeline.html" />
+        <option value="$PROJECT_DIR$/dw/templates/manage/project_change.html" />
+        <option value="$PROJECT_DIR$/dw/urls.py" />
+        <option value="$PROJECT_DIR$/dw/tests.py" />
+        <option value="$PROJECT_DIR$/dw/views.py" />
+        <option value="$PROJECT_DIR$/dw/member_team.py" />
+        <option value="$PROJECT_DIR$/dw/calendar_views.py" />
+        <option value="$PROJECT_DIR$/dw/wiki_views.py" />
+        <option value="$PROJECT_DIR$/dw/manage_views.py" />
+        <option value="$PROJECT_DIR$/dw/index.py" />
+        <option value="$PROJECT_DIR$/dw/global_manage_views.py" />
+        <option value="$PROJECT_DIR$/dw/createtree.py" />
+        <option value="$PROJECT_DIR$/dw/task_content_views.py" />
+        <option value="$PROJECT_DIR$/dw/templates/wiki/wiki_content.html" />
+        <option value="$PROJECT_DIR$/dw/templates/base.html" />
       </list>
     </option>
   </component>
@@ -255,7 +305,105 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project_manage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project_manage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="attachment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project_manage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project_manage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="attachment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wiki" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project_manage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project_manage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="attachment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wiki" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="imges" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project_manage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project_manage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="dw" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project_manage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project_manage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dw" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -284,7 +432,12 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
-  <component name="RunManager" selected="Python.__init__">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\xunlei\local-repositories\project_manage\dw" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.test_django_token">
     <configuration default="false" name="tests" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -335,6 +488,24 @@
       <module name="project_manage" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/darkwarrior/__init__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="test_django_token" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dw" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="project_manage" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dw/test_django_token.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -578,17 +749,19 @@
       <option name="customRunCommand" value="" />
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Django server.project_manage" />
       <item index="1" class="java.lang.String" itemvalue="Python.tests" />
       <item index="2" class="java.lang.String" itemvalue="Python.views" />
       <item index="3" class="java.lang.String" itemvalue="Python.__init__" />
+      <item index="4" class="java.lang.String" itemvalue="Python.test_django_token" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python.__init__" />
-        <item index="1" class="java.lang.String" itemvalue="Python.tests" />
-        <item index="2" class="java.lang.String" itemvalue="Python.views" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python.test_django_token" />
+        <item index="1" class="java.lang.String" itemvalue="Python.__init__" />
+        <item index="2" class="java.lang.String" itemvalue="Python.tests" />
+        <item index="3" class="java.lang.String" itemvalue="Python.views" />
       </list>
     </recent_temporary>
   </component>
@@ -613,26 +786,26 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23676248" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21331316" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32026145" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2859477" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30228758" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.003267974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1879085" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20915033" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -643,283 +816,255 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/darkwarrior/settings.py">
+    <entry file="file://$PROJECT_DIR$/dw/migrations/0001_initial.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="119" column="48" selection-start-line="119" selection-start-column="48" selection-end-line="119" selection-end-column="48" />
+        <state vertical-scroll-proportion="-3.1578948">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dw/views.py">
+    <entry file="file://$PROJECT_DIR$/dw/templates/check_application.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="33.088234">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#14#102#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/base64.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="41" column="13" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dw/templates/wpaint.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="66" column="14" selection-start-line="66" selection-start-column="14" selection-end-line="66" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/darkwarrior/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding>
-            <element signature="e#577#618#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dw/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="129" column="72" selection-start-line="129" selection-start-column="72" selection-end-line="129" selection-end-column="72" />
-          <folding>
-            <element signature="e#14#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/darkwarrior/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="119" column="48" selection-start-line="119" selection-start-column="48" selection-end-line="119" selection-end-column="48" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dw/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="108" column="33" selection-start-line="108" selection-start-column="33" selection-end-line="108" selection-end-column="33" />
-          <folding>
-            <element signature="e#14#102#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/base64.py">
+    <entry file="file://$PROJECT_DIR$/dw/templates/compile_project_index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dw/templates/wpaint.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="66" column="14" selection-start-line="66" selection-start-column="14" selection-end-line="66" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/darkwarrior/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding>
-            <element signature="e#577#618#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dw/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="129" column="72" selection-start-line="129" selection-start-column="72" selection-end-line="129" selection-end-column="72" />
-          <folding>
-            <element signature="e#14#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/darkwarrior/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="119" column="48" selection-start-line="119" selection-start-column="48" selection-end-line="119" selection-end-column="48" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dw/views.py">
+    <entry file="file://$PROJECT_DIR$/dw/templates/create_roadmap.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#14#102#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dw/templates/wpaint.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="66" column="14" selection-start-line="66" selection-start-column="14" selection-end-line="66" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/darkwarrior/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding>
-            <element signature="e#577#618#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dw/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="129" column="72" selection-start-line="129" selection-start-column="72" selection-end-line="129" selection-end-column="72" />
-          <folding>
-            <element signature="e#14#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/darkwarrior/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="119" column="48" selection-start-line="119" selection-start-column="48" selection-end-line="119" selection-end-column="48" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dw/views.py">
+    <entry file="file://$PROJECT_DIR$/dw/templates/email.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="80.911766">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dw/templates/homepage.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dw/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="110.29412">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dw/templates/kanban_2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="40.441177">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dw/templates/loading_timeline.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dw/templates/manage_base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="136.02942">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dw/templates/many_change.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dw/templates/member_calendar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dw/templates/member_gantt.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dw/templates/member_kanban.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dw/templates/message.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dw/templates/p_n.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.2879817">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dw/templates/member_log.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dw/templates/page-403.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dw/templates/page-login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.251701">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dw/templates/query.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.1337868">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dw/templates/report.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.4013605">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dw/templates/timeline.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11337868">
+          <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dw/templates/use_cdkey.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dw/templates/user.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="20.852942">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dw/templates/manage/project_change.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25">
+          <caret line="88" column="66" selection-start-line="88" selection-start-column="66" selection-end-line="88" selection-end-column="66" />
           <folding>
-            <element signature="e#14#102#0" expanded="true" />
+            <element signature="n#style#0;n#div#7;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dw/templates/wpaint.html">
+    <entry file="file://$PROJECT_DIR$/dw/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="66" column="14" selection-start-line="66" selection-start-column="14" selection-end-line="66" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dw/templates/global_manage/manage_base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.936708">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dw/templates/global_manage/manage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dw/tests.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dw/templates/wpaint.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.06053269">
-          <caret line="66" column="14" selection-start-line="66" selection-start-column="14" selection-end-line="66" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/base64.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="41" column="13" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dw/templates/email.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/darkwarrior/templates/registration/password_reset_form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dw/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <caret line="18" column="51" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
+          <folding>
+            <element signature="e#14#25#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/darkwarrior/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="70" />
+          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/darkwarrior/urls.py">
+    <entry file="file://$PROJECT_DIR$/dw/wiki_urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding>
-            <element signature="e#577#618#0" expanded="true" />
+            <element signature="e#15#47#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dw/views.py">
+    <entry file="file://$PROJECT_DIR$/dw/decorator.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="2004" column="19" selection-start-line="2004" selection-start-column="19" selection-end-line="2004" selection-end-column="19" />
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding>
-            <element signature="e#14#102#0" expanded="true" />
+            <element signature="e#13#101#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dw/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="47" column="76" selection-start-line="47" selection-start-column="76" selection-end-line="47" selection-end-column="76" />
-          <folding>
-            <element signature="e#14#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/darkwarrior/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dw/task_content_views.py">
+    <entry file="file://$PROJECT_DIR$/dw/permissions.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -927,35 +1072,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dw/permissions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dw/permission_update.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding>
-            <element signature="e#13#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dw/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
-          <folding>
-            <element signature="e#14#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dw/member_team.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -965,9 +1082,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dw/manage_views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.8333333">
-          <caret line="6" column="59" selection-start-line="6" selection-start-column="59" selection-end-line="6" selection-end-column="59" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="66" selection-start-line="7" selection-start-column="66" selection-end-line="7" selection-end-column="66" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dw/member_team.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="e#14#102#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -976,7 +1103,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#0#41#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -984,17 +1111,9 @@
     <entry file="file://$PROJECT_DIR$/dw/index.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dw/global_manage_views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="719.9">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding>
-            <element signature="e#13#101#0" expanded="true" />
+            <element signature="e#14#102#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1004,53 +1123,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dw/download.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="76" column="38" selection-start-line="76" selection-start-column="38" selection-end-line="76" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dw/decorator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding>
-            <element signature="e#13#101#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dw/createtree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dw/common_function.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding>
-            <element signature="e#13#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dw/cdkey.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding>
-            <element signature="e#14#102#0" expanded="true" />
+            <element signature="e#0#41#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1058,9 +1131,9 @@
     <entry file="file://$PROJECT_DIR$/dw/calendar_views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <caret line="0" column="13" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
           <folding>
-            <element signature="e#15#103#0" expanded="true" />
+            <element signature="e#14#102#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1068,20 +1141,116 @@
     <entry file="file://$PROJECT_DIR$/dw/ajax_views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+          <caret line="4" column="66" selection-start-line="4" selection-start-column="66" selection-end-line="4" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dw/createtree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dw/global_manage_views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="329" column="63" selection-start-line="329" selection-start-column="63" selection-end-line="329" selection-end-column="63" />
+          <folding>
+            <element signature="e#13#101#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dw/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="257.43332">
+          <caret line="1359" column="55" selection-start-line="1359" selection-start-column="44" selection-end-line="1359" selection-end-column="55" />
           <folding>
             <element signature="e#14#102#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dw/admin.py">
+    <entry file="file://$PROJECT_DIR$/dw/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.042881645">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dw/download.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding>
-            <element signature="e#13#45#0" expanded="true" />
+            <element signature="e#148#187#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dw/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="88.96667">
+          <caret line="369" column="30" selection-start-line="369" selection-start-column="30" selection-end-line="369" selection-end-column="30" />
+          <folding>
+            <element signature="e#14#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dw/task_content_views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-25.7">
+          <caret line="597" column="79" selection-start-line="597" selection-start-column="79" selection-end-line="597" selection-end-column="79" />
+          <folding>
+            <element signature="e#14#102#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dw/templates/task_content.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.859375">
+          <caret line="727" column="158" selection-start-line="727" selection-start-column="149" selection-end-line="727" selection-end-column="158" />
+          <folding>
+            <element signature="n#style#0;n#input#2;n#form#0;n#div#1;n#div#0;n#div#1;n#div#2;n#div#0;n#div#3;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dw/wiki_views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dw/templates/wiki/wiki.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="18.852942">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dw/templates/wiki/wiki_content.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.882353">
+          <caret line="76" column="55" selection-start-line="76" selection-start-column="55" selection-end-line="76" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dw/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1359447">
+          <caret line="387" column="78" selection-start-line="387" selection-start-column="78" selection-end-line="387" selection-end-column="78" />
+          <folding />
         </state>
       </provider>
     </entry>

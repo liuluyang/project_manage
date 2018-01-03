@@ -1,27 +1,7 @@
 #coding:utf-8
 from django.shortcuts import render,render_to_response,HttpResponseRedirect,HttpResponse
 from models import *
-import re,os
-from datetime import datetime
-from datetime import timedelta
-from datetime import datetime,date
-import time
-#from django.contrib.auth.decorators import login_required
-from darkwarrior.settings import MEDIA_ROOT,EMAIL_HOST_USER
-from django.contrib.auth.hashers import make_password,check_password
-from django.core.mail import send_mail
-from django.utils.http import urlsafe_base64_decode,urlsafe_base64_encode
-from django.contrib.auth.tokens import default_token_generator
-from decorator import *
-import subprocess
-from django.core.paginator import Paginator
-import random,base64
-import uuid
-from task_content_views import create_task,movetask
-import calendar
-from permissions import user_permissions
-import base64
-from views import catch_kanban_Thumbnails,dynamic_loading_kanban,count_task_progress,data_filter
+from decorator import login_required, checkCdkey, views_permission,is_superuser
 
 
 @checkCdkey

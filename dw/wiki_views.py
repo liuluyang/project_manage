@@ -2,14 +2,9 @@
 from django.shortcuts import render,render_to_response,HttpResponseRedirect,HttpResponse
 from models import *
 import re,os
-from django.contrib.auth import update_session_auth_hash
-from datetime import datetime
-import time
 from darkwarrior.settings import MEDIA_ROOT
-from django.contrib.auth.hashers import make_password,check_password
-from django.contrib.auth.tokens import default_token_generator
-from decorator import *
-#from forms import *
+from decorator import checkCdkey, is_login, login_required, views_permission
+
 
 @checkCdkey
 @is_login

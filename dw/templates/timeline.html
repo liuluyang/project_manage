@@ -11,18 +11,6 @@
 {% block content %}
  <div class="row">
                     <div class="col-sm-12">
-                        <!--
-                        <div class="btn-group pull-right m-t-15">
-                            <button type="button" class="btn btn-custom dropdown-toggle waves-effect waves-light" data-toggle="dropdown" aria-expanded="false">Settings <span class="m-l-5"><i class="fa fa-cog"></i></span></button>
-                            <ul class="dropdown-menu" role="menu">
-                                <li><a href="#">Action</a></li>
-                                <li><a href="#">Another action</a></li>
-                                <li><a href="#">Something else here</a></li>
-                                <li class="divider"></li>
-                                <li><a href="#">Separated link</a></li>
-                            </ul>
-                        </div>
-                        -->
                         <h4 class="page-title">时间线</h4>
                     </div>
 
@@ -181,32 +169,7 @@
     <script>
 
     $(document).ready(function(){
-        /*
-        $('#loading_anymore').click(function(){
-             var loading_index = $('article').last().attr('_id');
-             var project_id = '{{ project_id }}';
-             var xmlhttp;
 
-            if (window.XMLHttpRequest)
-              {// code for IE7+, Firefox, Chrome, Opera, Safari
-              xmlhttp=new XMLHttpRequest();
-              }
-            else
-              {// code for IE6, IE5
-              xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
-              }
-            xmlhttp.onreadystatechange=function()
-              {
-              if (xmlhttp.readyState==4 && xmlhttp.status==200)
-                {
-                    $('article').last().after(xmlhttp.responseText);
-                }
-              };
-            xmlhttp.open("GET","/"+project_id+"/loading_timeline/"+loading_index+"/10/",true);
-            xmlhttp.send();
-
-         });
-       */
        var flag = false;
        $(window).scroll(function() {
 

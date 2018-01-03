@@ -3,7 +3,7 @@ from django.conf.urls import include, url
 from views import *
 from darkwarrior.settings import MEDIA_ROOT
 from tests import test
-from permission_update import *
+from permission_update import update_permission_list
 from ajax_views import *
 from member_team import *
 from task_content_views import *
@@ -14,9 +14,6 @@ urlpatterns = [
     url(r'^', include('dw.wiki_urls')), #维基
     url(r'^global_manage/',include('dw.global_manage_urls'),{'views_permission':'manage'}), #全局管理后台
     url(r'^(?P<project_id>\d+)/manage/', include('dw.manage_url'), {'views_permission': 'manage'}), #项目管理后台
-
-    #url(r'^(?P<project_id>\d+)/effects/', include('dw.effects_urls'), {'views_permission': 'effects'}),
-    #url(r'^(?P<project_id>\d+)/HR/', include('dw.HR_urls'), {'views_permission': 'HR'}),
 
     url(r'^test/$',test),
     url(r'^login/$',login),
@@ -48,8 +45,6 @@ urlpatterns = [
     url(r'^(?P<project_id>\d+)/query/$',query,{'views_permission':'query'}),
     url(r'^(?P<project_id>\d+)/newtask/$',newtask,{'views_permission':'newtask'}),
     url(r'^(?P<project_id>\d+)/newtask/(?P<parent_task>\d+)/$',new_child_task,{'views_permission':'newtask'}),
-    url(r'^(?P<project_id>\d+)/newshot/$',newshot,{'views_permission':'newtask'}),
-    url(r'^(?P<project_id>\d+)/newassets/$',newassets,{'views_permission':'newtask'}),
     url(r'^(?P<project_id>\d+)/roadmap/$',roadmap,{'views_permission':'roadmap'}),
     url(r'^(?P<project_id>\d+)/task/(?P<id>\d+)/$',task_contents,{'views_permission':'task_content'}),
     url(r'^(?P<project_id>\d+)/task/(?P<id>\d+)/attachment_upload/$',task_attachment_upload,{'views_permission':'task_content'}),
