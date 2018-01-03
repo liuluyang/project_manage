@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.conf.urls import include, url
 from django.contrib import admin
-from dw.cdkey import *
+from dw.cdkey import cdkey, cdkey_past_dut, usecdkey
 
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
@@ -23,6 +23,5 @@ urlpatterns = [
     url(r'^cdkey_past_dut/$',cdkey_past_dut), #cdkey过期提醒
     url(r'^cdkey/$',cdkey), #cdkey注册激活
     url(r'^usecdkey/$',usecdkey), #cdkey禁止提醒
-
 
 ]

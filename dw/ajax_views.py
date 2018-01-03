@@ -1,18 +1,8 @@
 #coding:utf-8
 from django.shortcuts import render,render_to_response,HttpResponseRedirect,HttpResponse
 from models import *
-import re,os
 from datetime import datetime
-import time
-#from django.contrib.auth.decorators import login_required
-from darkwarrior.settings import MEDIA_ROOT,EMAIL_HOST_USER
-from django.contrib.auth.hashers import make_password,check_password
-from django.core.mail import send_mail
-from django.utils.http import urlsafe_base64_decode,urlsafe_base64_encode
-from django.contrib.auth.tokens import default_token_generator
-from decorator import *
-import subprocess
-from django.core.paginator import Paginator
+from decorator import views_permission, login_required, checkCdkey
 from permissions import user_permissions
 
 
@@ -144,7 +134,7 @@ def application(request,*args,**kwargs):                   #申请加入项目
         return render_to_response('permission_notice.html',locals())
 
 @checkCdkey
-@is_login
+@login_required
 @views_permission
 def check_application(request,*args,**kwargs):        #审核申请
     project_archive = kwargs['project']  # 项目归档判断

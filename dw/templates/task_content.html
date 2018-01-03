@@ -553,35 +553,9 @@
 
                 <!--附件,子任务,清单 modal-->
                 <div style="height: 40px;margin-top: 30px;margin-bottom: 10px;display:block;">
-                    <div style="display: inline-block;float: right;margin-left: 20px;cursor: pointer;"id="letschat">
-                        <i class="fa fa-comments-o"></i>聊天
-                    </div>
-                      {% if not repository_set %}<div style="display: inline-block;float: right;margin-left: 20px;cursor: pointer;"> <a href="/{{ url }}/task/{{ id }}/create_repository" target="_blank" style="color: #797979;"><i class="fa fa-archive"></i>资产库</a></div>{% endif %}
                     <div style="display: inline-block;float: right;margin-left: 20px;cursor: pointer;" data-toggle="modal" data-target="#attach-task"><i class="zmdi zmdi-upload" style="font-size: larger;"></i>附件</div>
                     <div style="display: inline-block;float: right;margin-left: 20px;cursor: pointer;"> <a href="/{{ url }}/newtask/{{ task.id }}" target="_blank" style="color: #797979;"><i class="fa fa-ticket"></i>子任务</a></div>
-                    <!--
-                    <div style="display: inline-block;float: right;margin-left: 20px;cursor: pointer;" data-toggle="modal" data-target="#list"><i class="ti-check-box"></i>清单</div>
-                    -->
                 </div>
-
-                <!--
-                <div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" id="list">
-                    <div class="modal-dialog modal-lg" role="document">
-                        <div class="modal-content">
-                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-
-                            <form class="proj-page-add-txt" method="post">
-                                <input type="hidden" value="add_list" name="judge">
-                                <input type="text" class="form-control" name="list_name">
-                                <button type="submit" class="btn" style ="position: absolute;right: 63px;top:20px;">添加</button>
-                                <button type="reset" class="btn" style ="position: absolute;right: 8px;top:20px;">清空</button>
-
-                            </form>
-                        </div>
-                    </div>
-                </div>
-
-                清单-->
                 <!--上传附件-->
                 <div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" id="attach-task">
                     <div class="modal-dialog modal-lg" role="document">
@@ -958,50 +932,7 @@
 
          <!--左侧清单，子任务，资产库-->
         <div class="col-md-8" style="float: left;">
-            <!--
-            {% if lists_task %}
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="panel panel-custom panel-border">
-                            <div class="panel-heading">
-                                <h3 class="panel-title">清单({{ list_num }})</h3>
-                            </div>
-                            <div class="panel-body">
-                                <div>
-                                    <header class="proj-page-subtitle with-del" >
-                                        <h5 style="color:  #6c7a86">清单进度</h5>
-                                    </header>
-                                    <div class="progress-with-amount progress-compact-style">
-                                        <progress class="progress progress-success" value="{{ num }}" max="100">100%</progress>
-                                        <div class="progress-with-amount-number">{% if lists %}{{ num }}%{% else %}0%{% endif %}</div>
-                                    </div>
-                                    <div class="form-group">
-                                        {% for list in lists %}
-                                            <form method="post">
-                                                <div class="checkbox">
-                                                    <input type="hidden" id="label-{{ list.id }}" value="" name="list_status">
-                                                    <input type="checkbox" id="check-{{ list.id }}" {% if list.status %}disabled checked{% endif %} onclick="document.getElementById('label-{{ list.id }}').value=true">
-                                                    <label for="check-{{ list.id }}" style="width:100%;margin-right: 5px;line-height: 20px;" >{{ list.title }}</label>
-                                                    <div style="display: inline-block;margin-top: 5px;" >
-                                                        <span>开始时间: </span>
-                                                        <input type="text" value="" {% if list.status %}disabled{% endif %} name="list_start_date" id="datetime{{ list.id }}" class='timeinput'style="width: 120px;display: inline-block; border-radius: 3px;border: 1px solid #eee;"/>
-                                                        <span>结束时间: </span>
-                                                        <input type="text" value="" {% if list.status %}disabled{% endif %} name="list_end_date" id="enddate{{ list.id }}" class='timeinput'style="width: 120px;display: inline-block; border-radius: 3px;border: 1px solid #eee;"/>
-                                                    </div>
-                                                    <input type="hidden" value="commit_list" name="judge">
-                                                    <input type="hidden" value="{{ list.id }}" name="list_id">
-                                                    <button type="submit" style="float: right;" class="btn btn-grey"{% if list.status %}disabled{% endif %}>提交</button>
-                                                </div>
-                                            </form>
-                                        {% endfor %}
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            {% endif %}
-             -->
+
             {% if child_task %}
                 <div class="row">
                     <div class="col-lg-12">
@@ -1322,11 +1253,6 @@
     </div>
 
 {% endblock %}
-{% block chat %}
-  <div id="chat-chat" style="display: none;">
-    {% include 'chat.html' %}
-  </div>
-{% endblock %}
 
 {% block jQuery %}
 
@@ -1365,24 +1291,6 @@
 
     <script>
 
-     $('#letschat').click(function () {
-          var chat_error='{{ chat_errors }}';
-
-           if (chat_error!=""){
-              alert(chat_error);
-           }
-           if(chat_error==''){
-              var chat=document.getElementById('chat-chat');
-              if(chat.style.display=='none'){
-                chat.style.display='block';
-              }
-              else{
-                  chat.style.display='none';
-               }
-           }
-
-       });
-
         $(document).ready(function(){
             //删除评论提示
             $('.show_cover').click(function(){
@@ -1417,40 +1325,6 @@
             //-end 附件排序
         });
 
-
-        /*DIV缩放火狐兼容版
-        $('.foldable').click(function(event){
-            e = event.clientY;
-            s = document.documentElement.scrollTop ||  document.body.scrollTop;
-            if(window.$(this).find('i').attr('class')=='fa fa-caret-right'){
-                window.$(this).find('i').attr('class','fa fa-caret-down');
-            }
-            else{
-                window.$(this).find('i').attr('class','fa fa-caret-right');
-            }
-            r =  window.$(this).text();
-            window.$(this).next().slideToggle(500);
-            $('body,html').animate({'scrollTop':s+e-100},500);
-            $('.foldable').each(function(){
-                if($(this).text()!=r){
-                    $(this).next().slideUp(500);
-                    $(this).find('i').attr('class','fa fa-caret-right')
-                }
-            })
-        });
-        */
-        /*
-         var attribute = document.getElementById('attribute');
-         var button = document.getElementById('button');
-         attribute.onclick = function(){
-         if(button.style.display == 'none'){
-         button.style.display = 'block';
-         }
-         else{
-         button.style.display = 'none';
-         }
-         };
-         */
     </script>
 
     <script>
@@ -1504,42 +1378,6 @@
         var delete_label = document.getElementsByName('delete_label');
         var delete_len = delete_label.length;
         var delete_form = document.getElementsByName('delete_form');
-        /*
-         for(var i=0;i<delete_len;i++)
-         {
-         delete_label[i].index = i;
-
-         delete_label[i].onclick = function(){
-
-         x=this.index;
-         //   if(delete_label[x].getAttribute('point')=='comment_point'){
-         //          if(confirm('确定删除此评论？\n注：该评论下的回复将一同被删除')){
-
-         delete_form[x].submit();
-         //   }
-         //   else{
-         //       return false;
-         //   }
-         //   }
-         //   else{
-         //          if(confirm('确定删除该条回复？')){
-
-         //        delete_form[x].submit();
-         //   }
-         //   else{
-         //       return false;
-         //   }
-         //   }
-
-
-
-
-         };
-
-
-         }
-
-         */
         var comment_div = document.getElementsByName('comment_div');
         var div_len = comment_div.length;
 
@@ -1700,56 +1538,8 @@
         clip.on( 'complete', function(client, args) {
             return alert("复制成功，复制内容为："+ args.text);
         } );
-/*
-     //获取点击letschat时间
-     var nowtime
-     function getnowTime(){
-            if(document.getElementById("letschat").value==true){
-               nowtime=new Date().getTime();
-              document.getElementById("letschat").value=false;
-                return nowtime;
-        }
-        //return false
-      }
-
-window.setInterval('getTime()',500);
-    function getTime() {
-        var xmlhttp;
-        getnowTime()
-        xmlhttp=new XMLHttpRequest();
-
-        xmlhttp.onreadystatechange=function()
-        {
-            if (xmlhttp.readyState == 4) {
-                if (xmlhttp.status == 200) {
-                    if (xmlhttp.responseText != "") {
-                        if (xmlhttp.responseText == '0'){
-                            $('#chatNum').hide();
-                        }else{
-                            $('#chatNum').show();
-                            document.getElementById("chatNum").innerText = "(" + xmlhttp.responseText + ")";
-                        }
-                    }
-                }
-            }
-        };
-        xmlhttp.open("GET","/{{ url }}/task/{{ id }}/gettime/?nowtime="+nowtime,true);
-        xmlhttp.send();
-
-    }*/
-
-
 
     </script>
-
-    <!--<script>
-        videojs('vidId').ready(function() {
-          this.hotkeys({
-            volumeStep: 0.1,
-            seekStep: 5
-          });
-        });
-    </script>-->
 
     {% if change_task == 'false' %}
         <script>

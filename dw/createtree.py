@@ -2,8 +2,8 @@
 import os
 def mkdir(path):
     #print path.split(os.sep).pop()
-    file = ['ddb','doc','txt','wps','xls','ppt','rar','html','pdf','dwg','exe','jpg','png','bmp','swf','fla']
-    if path.split(os.sep)[-1].split('.')[-1] in file:
+    files = ['ddb','doc','txt','wps','xls','ppt','rar','html','pdf','dwg','exe','jpg','png','bmp','swf','fla']
+    if path.split(os.sep)[-1].split('.')[-1] in files:
 
         folderList = path.split(os.sep)
         folderList.pop()
@@ -16,8 +16,8 @@ def mkdir(path):
         # 判断是否存在
         if not isExists:
             #  如果不存在则创建文件
-            file = open(path, 'w')
-            file.close()
+            file_ = open(path, 'w')
+            file_.close()
         else:
             error = path + u' 文件已经存在'
 

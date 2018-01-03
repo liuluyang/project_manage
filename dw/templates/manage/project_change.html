@@ -67,14 +67,14 @@
                             <input type="date" class="form-control" name="project_complete_time"  value="{{ project.complete_time }}">
                         </div>
                     </div>
-		    
+		    -->
                     <div class="form-group">
                         <label class="col-md-2 control-label">项目状态</label>
                         <div class="col-md-10">
                             <input class="form-control" rows="6" name="project_status" value="{{ project.project_status }}">
                         </div>
                     </div>
-                    -->
+
                     <div class="form-group">
                         <label class="col-md-2 control-label">权限控制</label>
                         <div class="col-md-10">
@@ -86,11 +86,11 @@
                     </div>
 
                     <div class="form-group">
-                        <label class="col-md-2 control-label">项目状态</label>
+                        <label class="col-md-2 control-label">项目归档</label>
                         <div class="col-md-10">
                             <select class="change_sel" name="is_archive">
-                                <option value="1" {% if project.is_archive %}selected {% endif %}>项目归档</option>
-                                <option value="0" {% if not project.is_archive %}selected {% endif %}>进行中</option>
+                                <option value="1" {% if project.is_archive %}selected {% endif %}>是</option>
+                                <option value="0" {% if not project.is_archive %}selected {% endif %}>否</option>
                             </select>
                         </div>
                     </div>
